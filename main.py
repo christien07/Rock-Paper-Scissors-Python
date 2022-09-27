@@ -47,7 +47,11 @@ elif user_choice == '1':
     elif computer_choice == 2:
         print(f"{paper}\n{scissors}\nYou lose. Scissors beats paper.")
 elif user_choice == '2':
-    # Do something else ...
-    print("0")
+    if computer_choice == 0:
+        print(f"{scissors}\n{rock}\nYou lose. Rock beats scissors.")
+    elif computer_choice == 1:
+        print(f"{scissors}\n{paper}\nYou win! Scissors beats paper.")
+    elif computer_choice == 2:
+        print(f"{scissors}\n{scissors}\nIt's a tie.")
 else:
     print("Please enter '0', '1', or '2' for your choice.")
