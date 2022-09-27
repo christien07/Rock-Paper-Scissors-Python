@@ -31,3 +31,15 @@ scissors = '''
 computer_choice = random.randint(0, 2)
 
 user_choice = input("Please enter '0' for Rock, enter '1' for Paper, or enter '2' for Scissors.\n")
+
+if user_choice == 0:
+    if computer_choice == 0:
+        print(f"{rock}\n{rock}\nIt's a tie.")
+    elif computer_choice == 1:
+        print(f"{rock}\n{paper}\nYou lose. Paper beats rock.")
+    elif computer_choice == 2:
+        print(f"{rock}\n{scissors}\nYou win! Rock beats scissors.")
+elif user_choice == 1:
+    # Do something ...
+elif user_choice == 2:
+    # Do something else ...
