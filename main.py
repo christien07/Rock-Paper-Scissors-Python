@@ -30,4 +30,4 @@ scissors = '''
 #Write your code below this line 👇
 computer_choice = random.randint(0, 2)
 
-input("Please enter '0' for Rock, enter '1' for Paper, or enter '2' for Scissors.")
+user_choice = input("Please enter '0' for Rock, enter '1' for Paper, or enter '2' for Scissors.\n")
